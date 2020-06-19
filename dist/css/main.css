@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  background-image: url("/dist/images/bg-hero-mobile.svg");
+  background-size: cover;
+  background-color: #ebfbff;
+}
+
+.top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 30px 85px;
+}
+
+.top-nav__logo {
+  width: 110px;
+}
+
+.content {
+  padding: 20px 0 225px;
+}
+
+.btn {
+  border-radius: 50px;
+  border: none;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.btn--white {
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  -webkit-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn--pink {
+  display: block;
+  width: 240px;
+  height: 45px;
+  margin: 30px auto;
+  background-color: #ff52bf;
+  color: white;
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn--floatbox {
+  margin: 0 auto;
+}
+
+.title {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.title--header {
+  font-size: 1.5rem;
+}
+
+.title--floatbox {
+  width: 90%;
+  display: block;
+  padding-bottom: 25px;
+}
+
+.subtitle {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.subtitle--header {
+  text-shadow: 0px 0px 0.5px black;
+}
+
+.subtitle--box {
+  padding-bottom: 35px;
+  font-size: 0.85rem;
+  color: #808d99;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image__container {
+  padding: 30px 0;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin: 35px auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.05);
+}
+
+.box--floatbox {
+  width: 95%;
+  height: 200px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */

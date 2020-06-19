@@ -1,4 +1,13 @@
-@import "/scss/abstracts/variables";
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
-@import "/scss/base/reset";
-@import "/scss/base/typography";
+@import "base/reset";
+@import "base/typography";
+
+@import "layout/header";
+@import "layout/main";
+
+@import "components/button";
+@import "components/titles-subtitles";
+@import "components/images";
+@import "components/content-box";

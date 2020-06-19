@@ -1,0 +1,30 @@
+.btn {
+  border-radius: 50px;
+  border: none;
+  font-family: inherit;
+  font-weight: map-get($font-weights, bold);
+
+  &--white {
+    width: 120px;
+    height: 30px;
+    background-color: white;
+
+    box-shadow: 0 3px 10px 0px rgba(0,0,0, 0.1);
+  }
+
+  &--pink {
+    display: block;
+    width: 240px;
+    height: 45px;
+    margin: 30px auto;
+
+    background-color: $primary-one;
+    color: white;
+
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0, 0.2);
+  }
+
+  &--floatbox {
+    margin: 0 auto;
+  }
+}

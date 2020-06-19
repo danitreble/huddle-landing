@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  flex-direction: column;
+
+  width: 90%;
+  margin: 35px auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.05);
+
+  &--floatbox {
+    width: 95%;
+    height: 200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+}

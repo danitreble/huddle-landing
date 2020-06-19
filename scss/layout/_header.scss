@@ -1,0 +1,17 @@
+.header {
+  background-image: url("/dist/images/bg-hero-mobile.svg");
+  background-size: cover;
+  background-color: $neutral-one;
+}
+
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px 85px;
+  
+  &__logo {
+   width: 110px;
+  }
+}
