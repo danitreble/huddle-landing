@@ -37,7 +37,48 @@ h1, h2, h3 {
 }
 
 .content {
+  position: relative;
   padding: 20px 0 225px;
+}
+
+.box--floatbox {
+  position: absolute;
+  left: 2.5%;
+  bottom: -60px;
+  background-color: white;
+}
+
+.footer {
+  position: relative;
+  background-color: #00252e;
+  z-index: -3;
+}
+
+.footer__logo {
+  color: white;
+  padding: 140px 0 20px 45px;
+}
+
+.footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-info__icon {
+  margin: 0 25px 0 10px;
+  margin-top: 5px;
+}
+
+.footer-info__text {
+  width: 80%;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .btn {
@@ -139,5 +180,16 @@ h1, h2, h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.footer-nav {
+  padding: 30px 0 40px 10px;
+}
+
+.footer-nav__item {
+  list-style: none;
+  color: white;
+  line-height: 2;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

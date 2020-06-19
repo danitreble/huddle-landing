@@ -1,3 +1,11 @@
 .content {
+  position: relative;
   padding: 20px 0 225px;
 }
+
+.box--floatbox {
+  position: absolute;
+  left: 2.5%;
+  bottom: -60px;
+  background-color: white;
+}  
