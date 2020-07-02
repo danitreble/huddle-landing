@@ -3,6 +3,7 @@
   border: none;
   font-family: inherit;
   font-weight: map-get($font-weights, bold);
+  cursor: pointer;
 
   &--white {
     width: 120px;
@@ -10,6 +11,12 @@
     background-color: white;
 
     box-shadow: 0 3px 10px 0px rgba(0,0,0, 0.1);
+    transition: color 200ms, background-color 200ms;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
 
     @media only screen and (min-width: $desktop-view) {
       width: 160px;
@@ -28,6 +35,14 @@
     color: white;
 
     box-shadow: 3px 3px 10px 0px rgba(0,0,0, 0.2);
+
+    transition: color 200ms, background-color 200ms;
+
+    &:hover {
+      background-color: white;
+      color: $primary-one;
+    }
+
   }
 
   &--floatbox {

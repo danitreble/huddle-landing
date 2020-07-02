@@ -174,6 +174,7 @@ h1, h2, h3 {
   border: none;
   font-family: inherit;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .btn--white {
@@ -182,6 +183,13 @@ h1, h2, h3 {
   background-color: white;
   -webkit-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transition: color 200ms, background-color 200ms;
+  transition: color 200ms, background-color 200ms;
+}
+
+.btn--white:hover {
+  background-color: black;
+  color: white;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -201,6 +209,13 @@ h1, h2, h3 {
   color: white;
   -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transition: color 200ms, background-color 200ms;
+  transition: color 200ms, background-color 200ms;
+}
+
+.btn--pink:hover {
+  background-color: white;
+  color: #ff52bf;
 }
 
 .btn--floatbox {
@@ -405,6 +420,17 @@ h1, h2, h3 {
   height: 30px;
   width: 30px;
   border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: background-color 200ms;
+  transition: background-color 200ms;
+}
+
+.social-media__icon-container:hover {
+  background-color: white;
+}
+
+.social-media__icon-container:hover .fab {
+  color: black;
 }
 
 @media only screen and (min-width: 1440px) {
