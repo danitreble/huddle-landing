@@ -14,5 +14,25 @@
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+
+    @media only screen and (min-width: $desktop-view) {
+      width: 800px;
+    }
   }
+
+  &--left {
+    @media only screen and (min-width: $desktop-view) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &--right {
+    @media only screen and (min-width: $desktop-view) {
+      flex-direction: row;
+    }
+  }
+
+  @media only screen and (min-width: $desktop-view) {
+    align-items: center;
+}
 }

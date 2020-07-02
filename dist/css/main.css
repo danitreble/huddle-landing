@@ -19,6 +19,12 @@ h1, h2, h3 {
   background-color: #ebfbff;
 }
 
+@media only screen and (min-width: 1440px) {
+  .header {
+    background-image: url("/dist/images/bg-hero-desktop.svg");
+  }
+}
+
 .top-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,6 +42,36 @@ h1, h2, h3 {
   width: 110px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .top-nav__logo {
+    width: 200px;
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .top-nav {
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-content {
+    margin-top: 150px;
+  }
+  .image__container--header {
+    width: 120%;
+  }
+}
+
 .content {
   position: relative;
   padding: 20px 0 225px;
@@ -45,6 +81,12 @@ h1, h2, h3 {
   position: absolute;
   left: 2.5%;
   bottom: -60px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .box--floatbox {
+    left: 28%;
+  }
 }
 
 .footer {
@@ -104,6 +146,14 @@ h1, h2, h3 {
           box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (min-width: 1440px) {
+  .btn--white {
+    width: 160px;
+    height: 40px;
+    margin-right: 45px;
+  }
+}
+
 .btn--pink {
   display: block;
   width: 240px;
@@ -119,6 +169,12 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 1440px) {
+  .btn--header {
+    margin-left: 75px;
+  }
+}
+
 .title {
   width: 80%;
   margin: 0 auto;
@@ -130,10 +186,25 @@ h1, h2, h3 {
   font-size: 1.5rem;
 }
 
+@media only screen and (min-width: 1440px) {
+  .title--header {
+    text-align: left;
+    margin-left: 75px;
+    font-size: 2.4rem;
+    width: 70%;
+  }
+}
+
 .title--floatbox {
   width: 90%;
   display: block;
   padding-bottom: 25px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .title--box {
+    text-align: left;
+  }
 }
 
 .subtitle {
@@ -147,10 +218,24 @@ h1, h2, h3 {
   text-shadow: 0px 0px 0.5px black;
 }
 
+@media only screen and (min-width: 1440px) {
+  .subtitle--header {
+    text-align: left;
+    margin-left: 75px;
+    width: 80%;
+  }
+}
+
 .subtitle--box {
   padding-bottom: 35px;
   font-size: 0.85rem;
   color: #808d99;
+}
+
+@media only screen and (min-width: 1440px) {
+  .subtitle--box {
+    text-align: left;
+  }
 }
 
 .image {
@@ -189,6 +274,38 @@ h1, h2, h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (min-width: 1440px) {
+  .box--floatbox {
+    width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .box--left {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .box--right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .box {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .footer-nav {

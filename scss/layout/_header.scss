@@ -2,6 +2,10 @@
   background-image: url("/dist/images/bg-hero-mobile.svg");
   background-size: cover;
   background-color: $neutral-one;
+
+  @media only screen and (min-width: $desktop-view) {
+    background-image: url("/dist/images/bg-hero-desktop.svg");
+  }
 }
 
 
@@ -13,5 +17,33 @@
   
   &__logo {
    width: 110px;
+
+    @media only screen and (min-width: $desktop-view) {
+      width: 200px;
+      margin-left: 45px;
+    }
+  }
+
+  @media only screen and (min-width: $desktop-view) {
+    padding-bottom: 20px;
   }
 }
+
+@media only screen and (min-width: $desktop-view) {
+  .header {
+  
+    &-desktop {
+      display: flex;
+      justify-content: center;
+    }
+
+    &-content {
+      margin-top: 150px;
+    }
+  }
+
+  .image__container--header {
+    width: 120%;
+  }
+}
+

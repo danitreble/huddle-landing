@@ -10,6 +10,12 @@
     background-color: white;
 
     box-shadow: 0 3px 10px 0px rgba(0,0,0, 0.1);
+
+    @media only screen and (min-width: $desktop-view) {
+      width: 160px;
+      height: 40px;
+      margin-right: 45px;
+    }
   }
 
   &--pink {
@@ -26,5 +32,11 @@
 
   &--floatbox {
     margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: $desktop-view) {
+  .btn--header {
+    margin-left: 75px;
   }
 }
