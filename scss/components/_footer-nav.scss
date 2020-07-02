@@ -7,4 +7,19 @@
     line-height: 2;
     cursor: pointer;
   }
+
+  &__container {
+    @media only screen and (min-width: $desktop-view) {
+      display: flex;
+      flex-direction: column;     
+      flex-wrap: wrap;
+      height: 120px;
+   }
+  }
+
+  @media only screen and (min-width: $desktop-view) {
+    display: block; 
+    width: 33%;
+    padding-top: 0;   
+  }
 }
